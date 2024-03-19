@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Added from "./components/Added";
 import Completed from "./components/Completed";
@@ -89,7 +89,7 @@ function App() {
           value={toDo}
           onChange={(e) => setToDo(e.target.value)}
           type="text"
-          placeholder="🖊️ Add item..." 
+          placeholder="🖊️ Add item..."
         />
         <i onClick={addToDo} className="fas fa-plus"></i>
       </div>
